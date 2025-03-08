@@ -18,8 +18,19 @@ body{
 }
 div{ 
     position: absolute;
-    bottom: 350px;
+    bottom: 20px;
     padding: 10px 20px;
     font-size: 18px;
     background-color: blueviolet;
+}
+input{
+  width: 50px;
+  padding: 5px;
+  font-size: 18px;
+  background-color: darkgoldenrod;
+  border: none;
+  text-align: center;
+}
+input.focus{
+  outline: none;
 }
